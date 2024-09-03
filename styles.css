@@ -1,32 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 header h1,h4{
     text-align: center;
 }
-
 header h1 {
     font-size:75px;
 } 
-
 header h4 {
     font-size: 27px;
 }
-
+h1 {
+    color:#5c8884;
+    background-color: antiquewhite;
+}
+body {
+    color:#5c8884;
+    background-color: antiquewhite;
+}
 #table-of-contents {
     font-size: 40px;
     text-align: center;
     border-style: double;
     border-width: 10px;
 }
-
 .pages {
     font-size: 32px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    padding-top: 20px;;
+    margin: 100px;
+    margin-left: center; /*NOT TOO SURE WHAT THIS DOES*/
+    height:100px;
+    width: 400px; 
+    border: 5px solid #5c8884;
+    position: relative; /*NOT TOO SURE WHAT THIS DOES*/
 }
 
-body {
-    color:#5c8884;
-    background-color: antiquewhite;
-}
 
-h1 {
-    color:#5c8884;
-    background-color: antiquewhite;
-}
