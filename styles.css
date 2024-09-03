@@ -1,6 +1,13 @@
+/* ========== BOX MODEL ========== //
+//
+// Margin      | e.g. margin: 10px 10px 10px 10px (top | right | bottom | left)  
+// Border      | e.g. border: 2px dotted green
+// Padding     | e.g. padding: 10px (shorthand)
+// Content     | 
+*/
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 header h1,h4{
@@ -33,7 +40,8 @@ body {
     padding: 10px;
     padding-top: 20px;;
     margin: 100px;
-    margin-left: center; /*NOT TOO SURE WHAT THIS DOES*/
+    margin-left: auto; /*NOT TOO SURE WHAT THIS DOES*/
+    margin-right: auto;
     height:100px;
     width: 400px; 
     border: 5px solid #5c8884;
